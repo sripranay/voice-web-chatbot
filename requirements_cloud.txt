@@ -1,0 +1,8 @@
+streamlit
+ddgs
+trafilatura
+beautifulsoup4
+lxml
+spellchecker
+gTTS
+requests

@@ -1,0 +1,12 @@
+streamlit
+ddgs
+trafilatura
+beautifulsoup4
+lxml
+spellchecker
+sounddevice
+soundfile
+SpeechRecognition
+pyttsx3
+pygame
+requests
