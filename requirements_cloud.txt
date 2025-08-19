@@ -3,6 +3,7 @@ ddgs
 trafilatura
 beautifulsoup4
 lxml
-spellchecker
+pyspellchecker
 gTTS
 requests
+
