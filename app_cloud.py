@@ -10,7 +10,15 @@ try:
     from ddgs import DDGS
 except ImportError:
     from duckduckgo_search import DDGS
-from spellchecker import SpellChecker
+# Try to use pyspellchecker (module name: spellchecker). If a wrong package is present, fall back gracefully.
+try:
+    from spellchecker import SpellChecker  # provided by pyspellchecker
+except Exception:
+    class SpellChecker:                    # no-op fallback so the app still runs
+        def __init__(self, *a, **k): pass
+        def unknown(self, words): return set()
+        def correction(self, w): return w
+
 from gtts import gTTS
 import streamlit as st
 
