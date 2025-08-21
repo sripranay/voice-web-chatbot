@@ -1,8 +1,8 @@
-streamlit
-ddgs
+gradio>=4.39.0
+duckduckgo-search>=5
 trafilatura
 beautifulsoup4
 lxml
-pyspellchecker==0.7.2
-gTTS
 requests
+SpeechRecognition
+gTTS
